@@ -1,0 +1,143 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Above is normalization*/
+
+div {s
+    padding-top: 20px;
+    position:relative;
+    display:inline-block;
+    border-radius: 100%;
+}
+
+.listimg {
+    height:50px;
+    width:50px;
+}
+
+.headimg {
+    padding-right: 50px;
+    padding-left: 50px;
+    height:80px;
+    width: 80px;
+}
+
+#hdrlist {
+    position: relative;
+    text-align: center;
+    margin-right: 25px
+}
+#banner {
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+    width:750px;
+}
+
+li div p {
+    font-size:16px;
+    color:green;
+    font-family:fantasy;
+    margin-left:20px;
+    height: 50px;
+    width: 700px;
+}
+
+html {
+    background-image: url("images/Star-field-3.JPG");
+    background-color: #1a1a1a;
+}
+
+body {
+    background-color: black;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+article {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+footer p{
+    font-size: 12px;
+}
+
+h1{
+    font-size: 48px;
+    padding-bottom: 25px;
+}
+
+h2{
+    font-size: 24px;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+
+li div{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
