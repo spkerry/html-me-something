@@ -144,3 +144,7 @@ li div{
     padding-left: 20px;
     padding-right: 20px;
 }
+
+em{
+	font-style: italic;
+}
